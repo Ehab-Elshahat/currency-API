@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #2196f3;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: aliceblue;
+  width: 40vw;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.4);
+font-size: 24px;
+}
+.container h1 {
+  font-size: 24px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+#dollar-input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#dollar-input:focus {
+  outline: none;
+}
+.pound,
+.rial {
+ color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.pound {
+  margin-bottom: 20px;
+  background-color: #009688;
+}
+.rial {
+  background-color: #e91e63;
+}
